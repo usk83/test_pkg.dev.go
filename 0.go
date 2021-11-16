@@ -1,6 +1,6 @@
 package testpkgdevgo
 
-const ModuleVersion = "v0.1.1"
+const ModuleVersion = "v0.1.2"
 
 type unexported struct {
 }
