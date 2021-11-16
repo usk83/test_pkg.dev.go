@@ -1,8 +1,8 @@
 package testpkgdevgo
 
-const ModuleVersion = "0.0.4"
+const ModuleVersion = "0.0.6"
 
-struct unexported struct{
+type unexported struct {
 }
 
 func New() *unexported {
@@ -12,3 +12,5 @@ func New() *unexported {
 func Version() string {
 	return ModuleVersion
 }
+
+This_line_causes_an_error
